@@ -1,0 +1,325 @@
+04-Jun-21 17:51:50 - learn2graph(
+  (vae): TopoDiffVAE(
+    (enc): GraphEnc(
+      (conv1): GraphConvLayer()
+      (conv2): GraphConvLayer()
+      (fc1): Linear(in_features=64, out_features=32, bias=True)
+      (fc2): Linear(in_features=32, out_features=16, bias=True)
+    )
+    (f_mean): Sequential(
+      (0): Linear(in_features=16, out_features=16, bias=True)
+    )
+    (f_var): Sequential(
+      (0): Linear(in_features=16, out_features=16, bias=True)
+    )
+    (dec): Sequential(
+      (0): Linear(in_features=206, out_features=253, bias=True)
+      (1): Tanh()
+      (2): Linear(in_features=253, out_features=190, bias=True)
+    )
+  )
+)
+04-Jun-21 17:52:00 - Epoch 0001 | lr: 0.00902500 | Time(s): 10.2931
+04-Jun-21 17:52:00 - == train Loss <unroll: 16.3034 | vae : 1078.7782 | kl : 1036.7996>
+04-Jun-21 17:52:00 - == gmse <train: 14.1109 | val: 0.2297> 
+04-Jun-21 17:52:11 - Epoch 0002 | lr: 0.00857375 | Time(s): 10.4440
+04-Jun-21 17:52:11 - == train Loss <unroll: 2.3535 | vae : 1.4848 | kl : 0.0508>
+04-Jun-21 17:52:11 - == gmse <train: 0.1688 | val: 0.1406> 
+04-Jun-21 17:52:21 - Epoch 0003 | lr: 0.00814506 | Time(s): 10.3597
+04-Jun-21 17:52:21 - == train Loss <unroll: 1.9021 | vae : 1.4790 | kl : 0.0293>
+04-Jun-21 17:52:21 - == gmse <train: 0.1274 | val: 0.1018> 
+04-Jun-21 17:52:31 - Epoch 0004 | lr: 0.00773781 | Time(s): 10.2122
+04-Jun-21 17:52:31 - == train Loss <unroll: 1.6369 | vae : 1.4944 | kl : 0.0212>
+04-Jun-21 17:52:31 - == gmse <train: 0.0979 | val: 0.0977> 
+04-Jun-21 17:52:42 - Epoch 0005 | lr: 0.00735092 | Time(s): 10.3849
+04-Jun-21 17:52:42 - == train Loss <unroll: 1.5495 | vae : 1.5301 | kl : 0.0177>
+04-Jun-21 17:52:42 - == gmse <train: 0.0932 | val: 0.0908> 
+04-Jun-21 17:52:54 - Epoch 0006 | lr: 0.00698337 | Time(s): 10.5807
+04-Jun-21 17:52:54 - == train Loss <unroll: 1.4702 | vae : 1.5411 | kl : 0.0158>
+04-Jun-21 17:52:54 - == gmse <train: 0.0892 | val: 0.0850> 
+04-Jun-21 17:53:06 - Epoch 0007 | lr: 0.00663420 | Time(s): 10.8247
+04-Jun-21 17:53:06 - == train Loss <unroll: 1.3774 | vae : 1.5671 | kl : 0.0136>
+04-Jun-21 17:53:06 - == gmse <train: 0.0846 | val: 0.0776> 
+04-Jun-21 17:53:18 - Epoch 0008 | lr: 0.00630249 | Time(s): 11.0220
+04-Jun-21 17:53:18 - == train Loss <unroll: 1.1988 | vae : 1.6071 | kl : 0.0108>
+04-Jun-21 17:53:18 - == gmse <train: 0.0711 | val: 0.0637> 
+04-Jun-21 17:53:30 - Epoch 0009 | lr: 0.00598737 | Time(s): 11.1563
+04-Jun-21 17:53:30 - == train Loss <unroll: 1.0980 | vae : 1.6091 | kl : 0.0098>
+04-Jun-21 17:53:30 - == gmse <train: 0.0597 | val: 0.0599> 
+04-Jun-21 17:53:42 - Epoch 0010 | lr: 0.00568800 | Time(s): 11.1455
+04-Jun-21 17:53:42 - == train Loss <unroll: 1.0888 | vae : 1.6403 | kl : 0.0086>
+04-Jun-21 17:53:42 - == gmse <train: 0.0590 | val: 0.0577> 
+04-Jun-21 17:53:52 - Epoch 0011 | lr: 0.00540360 | Time(s): 11.1032
+04-Jun-21 17:53:52 - == train Loss <unroll: 1.0832 | vae : 1.6375 | kl : 0.0077>
+04-Jun-21 17:53:52 - == gmse <train: 0.0588 | val: 0.0595> 
+04-Jun-21 17:54:04 - Epoch 0012 | lr: 0.00513342 | Time(s): 11.1807
+04-Jun-21 17:54:04 - == train Loss <unroll: 1.0789 | vae : 1.6365 | kl : 0.0070>
+04-Jun-21 17:54:04 - == gmse <train: 0.0589 | val: 0.0582> 
+04-Jun-21 17:54:15 - Epoch 0013 | lr: 0.00487675 | Time(s): 11.1590
+04-Jun-21 17:54:15 - == train Loss <unroll: 1.0747 | vae : 1.6177 | kl : 0.0064>
+04-Jun-21 17:54:15 - == gmse <train: 0.0588 | val: 0.0583> 
+04-Jun-21 17:54:25 - Epoch 0014 | lr: 0.00463291 | Time(s): 11.0925
+04-Jun-21 17:54:25 - == train Loss <unroll: 1.0706 | vae : 1.6124 | kl : 0.0060>
+04-Jun-21 17:54:25 - == gmse <train: 0.0583 | val: 0.0605> 
+04-Jun-21 17:54:38 - Epoch 0015 | lr: 0.00440127 | Time(s): 11.1891
+04-Jun-21 17:54:38 - == train Loss <unroll: 1.0662 | vae : 1.5829 | kl : 0.0059>
+04-Jun-21 17:54:38 - == gmse <train: 0.0582 | val: 0.0603> 
+04-Jun-21 17:54:48 - Epoch 0016 | lr: 0.00418120 | Time(s): 11.1385
+04-Jun-21 17:54:48 - == train Loss <unroll: 1.0635 | vae : 1.5741 | kl : 0.0054>
+04-Jun-21 17:54:48 - == gmse <train: 0.0578 | val: 0.0569> 
+04-Jun-21 17:55:00 - Epoch 0017 | lr: 0.00397214 | Time(s): 11.1879
+04-Jun-21 17:55:00 - == train Loss <unroll: 1.0601 | vae : 1.5191 | kl : 0.0050>
+04-Jun-21 17:55:00 - == gmse <train: 0.0576 | val: 0.0576> 
+04-Jun-21 17:55:12 - Epoch 0018 | lr: 0.00377354 | Time(s): 11.1931
+04-Jun-21 17:55:12 - == train Loss <unroll: 1.0553 | vae : 1.4754 | kl : 0.0049>
+04-Jun-21 17:55:12 - == gmse <train: 0.0569 | val: 0.0564> 
+04-Jun-21 17:55:26 - Epoch 0019 | lr: 0.00358486 | Time(s): 11.3857
+04-Jun-21 17:55:26 - == train Loss <unroll: 1.0543 | vae : 1.4406 | kl : 0.0044>
+04-Jun-21 17:55:26 - == gmse <train: 0.0568 | val: 0.0550> 
+04-Jun-21 17:55:39 - Epoch 0020 | lr: 0.00340562 | Time(s): 11.4512
+04-Jun-21 17:55:39 - == train Loss <unroll: 1.0509 | vae : 1.4108 | kl : 0.0045>
+04-Jun-21 17:55:39 - == gmse <train: 0.0562 | val: 0.0563> 
+04-Jun-21 17:55:51 - Epoch 0021 | lr: 0.00323534 | Time(s): 11.4872
+04-Jun-21 17:55:51 - == train Loss <unroll: 1.0496 | vae : 1.3559 | kl : 0.0042>
+04-Jun-21 17:55:51 - == gmse <train: 0.0560 | val: 0.0545> 
+04-Jun-21 17:56:04 - Epoch 0022 | lr: 0.00307357 | Time(s): 11.5535
+04-Jun-21 17:56:04 - == train Loss <unroll: 1.0453 | vae : 1.3220 | kl : 0.0042>
+04-Jun-21 17:56:04 - == gmse <train: 0.0557 | val: 0.0544> 
+04-Jun-21 17:56:16 - Epoch 0023 | lr: 0.00291989 | Time(s): 11.5454
+04-Jun-21 17:56:16 - == train Loss <unroll: 1.0462 | vae : 1.2755 | kl : 0.0044>
+04-Jun-21 17:56:16 - == gmse <train: 0.0558 | val: 0.0563> 
+04-Jun-21 17:56:27 - Epoch 0024 | lr: 0.00277390 | Time(s): 11.5264
+04-Jun-21 17:56:27 - == train Loss <unroll: 1.0446 | vae : 1.2262 | kl : 0.0044>
+04-Jun-21 17:56:27 - == gmse <train: 0.0556 | val: 0.0557> 
+04-Jun-21 17:56:37 - Epoch 0025 | lr: 0.00263520 | Time(s): 11.4927
+04-Jun-21 17:56:37 - == train Loss <unroll: 1.0408 | vae : 1.1955 | kl : 0.0044>
+04-Jun-21 17:56:37 - == gmse <train: 0.0556 | val: 0.0541> 
+04-Jun-21 17:56:47 - Epoch 0026 | lr: 0.00250344 | Time(s): 11.4370
+04-Jun-21 17:56:47 - == train Loss <unroll: 1.0395 | vae : 1.1474 | kl : 0.0041>
+04-Jun-21 17:56:47 - == gmse <train: 0.0557 | val: 0.0546> 
+04-Jun-21 17:57:00 - Epoch 0027 | lr: 0.00237827 | Time(s): 11.4716
+04-Jun-21 17:57:00 - == train Loss <unroll: 1.0391 | vae : 1.1038 | kl : 0.0045>
+04-Jun-21 17:57:00 - == gmse <train: 0.0559 | val: 0.0569> 
+04-Jun-21 17:57:13 - Epoch 0028 | lr: 0.00225936 | Time(s): 11.5259
+04-Jun-21 17:57:13 - == train Loss <unroll: 1.0375 | vae : 1.0812 | kl : 0.0042>
+04-Jun-21 17:57:13 - == gmse <train: 0.0563 | val: 0.0543> 
+04-Jun-21 17:57:23 - Epoch 0029 | lr: 0.00214639 | Time(s): 11.4871
+04-Jun-21 17:57:23 - == train Loss <unroll: 1.0353 | vae : 1.0332 | kl : 0.0043>
+04-Jun-21 17:57:23 - == gmse <train: 0.0564 | val: 0.0563> 
+04-Jun-21 17:57:38 - Epoch 0030 | lr: 0.00203907 | Time(s): 11.5907
+04-Jun-21 17:57:38 - == train Loss <unroll: 1.0347 | vae : 0.9962 | kl : 0.0044>
+04-Jun-21 17:57:38 - == gmse <train: 0.0569 | val: 0.0573> 
+04-Jun-21 17:57:50 - Epoch 0031 | lr: 0.00193711 | Time(s): 11.5988
+04-Jun-21 17:57:50 - == train Loss <unroll: 1.0346 | vae : 0.9599 | kl : 0.0044>
+04-Jun-21 17:57:50 - == gmse <train: 0.0574 | val: 0.0582> 
+04-Jun-21 17:58:02 - Epoch 0032 | lr: 0.00184026 | Time(s): 11.6262
+04-Jun-21 17:58:02 - == train Loss <unroll: 1.0343 | vae : 0.9191 | kl : 0.0043>
+04-Jun-21 17:58:02 - == gmse <train: 0.0582 | val: 0.0603> 
+04-Jun-21 17:58:12 - Epoch 0033 | lr: 0.00174825 | Time(s): 11.5774
+04-Jun-21 17:58:12 - == train Loss <unroll: 1.0351 | vae : 0.8823 | kl : 0.0043>
+04-Jun-21 17:58:12 - == gmse <train: 0.0588 | val: 0.0575> 
+04-Jun-21 17:58:22 - Epoch 0034 | lr: 0.00166083 | Time(s): 11.5382
+04-Jun-21 17:58:22 - == train Loss <unroll: 1.0342 | vae : 0.8600 | kl : 0.0043>
+04-Jun-21 17:58:22 - == gmse <train: 0.0598 | val: 0.0600> 
+04-Jun-21 17:58:34 - Epoch 0035 | lr: 0.00157779 | Time(s): 11.5441
+04-Jun-21 17:58:34 - == train Loss <unroll: 1.0342 | vae : 0.8265 | kl : 0.0044>
+04-Jun-21 17:58:34 - == gmse <train: 0.0604 | val: 0.0625> 
+04-Jun-21 17:58:47 - Epoch 0036 | lr: 0.00149890 | Time(s): 11.5678
+04-Jun-21 17:58:47 - == train Loss <unroll: 1.0348 | vae : 0.7893 | kl : 0.0047>
+04-Jun-21 17:58:47 - == gmse <train: 0.0611 | val: 0.0619> 
+04-Jun-21 17:58:57 - Epoch 0037 | lr: 0.00142396 | Time(s): 11.5291
+04-Jun-21 17:58:57 - == train Loss <unroll: 1.0348 | vae : 0.7510 | kl : 0.0042>
+04-Jun-21 17:58:57 - == gmse <train: 0.0620 | val: 0.0593> 
+04-Jun-21 17:59:07 - Epoch 0038 | lr: 0.00135276 | Time(s): 11.4923
+04-Jun-21 17:59:07 - == train Loss <unroll: 1.0347 | vae : 0.7203 | kl : 0.0043>
+04-Jun-21 17:59:07 - == gmse <train: 0.0627 | val: 0.0625> 
+04-Jun-21 17:59:17 - Epoch 0039 | lr: 0.00128512 | Time(s): 11.4512
+04-Jun-21 17:59:17 - == train Loss <unroll: 1.0348 | vae : 0.6958 | kl : 0.0043>
+04-Jun-21 17:59:17 - == gmse <train: 0.0635 | val: 0.0615> 
+04-Jun-21 17:59:29 - Epoch 0040 | lr: 0.00122087 | Time(s): 11.4620
+04-Jun-21 17:59:29 - == train Loss <unroll: 1.0361 | vae : 0.6692 | kl : 0.0043>
+04-Jun-21 17:59:29 - == gmse <train: 0.0646 | val: 0.0635> 
+04-Jun-21 17:59:39 - Epoch 0041 | lr: 0.00115982 | Time(s): 11.4330
+04-Jun-21 17:59:39 - == train Loss <unroll: 1.0358 | vae : 0.6430 | kl : 0.0044>
+04-Jun-21 17:59:39 - == gmse <train: 0.0654 | val: 0.0629> 
+04-Jun-21 17:59:49 - Epoch 0042 | lr: 0.00110183 | Time(s): 11.4068
+04-Jun-21 17:59:49 - == train Loss <unroll: 1.0367 | vae : 0.6229 | kl : 0.0057>
+04-Jun-21 17:59:49 - == gmse <train: 0.0663 | val: 0.0630> 
+04-Jun-21 18:00:02 - Epoch 0043 | lr: 0.00104674 | Time(s): 11.4474
+04-Jun-21 18:00:02 - == train Loss <unroll: 1.0366 | vae : 0.5911 | kl : 0.0043>
+04-Jun-21 18:00:02 - == gmse <train: 0.0668 | val: 0.0647> 
+04-Jun-21 18:00:15 - Epoch 0044 | lr: 0.00099440 | Time(s): 11.4719
+04-Jun-21 18:00:15 - == train Loss <unroll: 1.0364 | vae : 0.5588 | kl : 0.0043>
+04-Jun-21 18:00:15 - == gmse <train: 0.0671 | val: 0.0655> 
+04-Jun-21 18:00:27 - Epoch 0045 | lr: 0.00094468 | Time(s): 11.4792
+04-Jun-21 18:00:27 - == train Loss <unroll: 1.0376 | vae : 0.5389 | kl : 0.0041>
+04-Jun-21 18:00:27 - == gmse <train: 0.0678 | val: 0.0648> 
+04-Jun-21 18:00:39 - Epoch 0046 | lr: 0.00089745 | Time(s): 11.5046
+04-Jun-21 18:00:39 - == train Loss <unroll: 1.0373 | vae : 0.5153 | kl : 0.0039>
+04-Jun-21 18:00:39 - == gmse <train: 0.0684 | val: 0.0647> 
+04-Jun-21 18:00:50 - Epoch 0047 | lr: 0.00085258 | Time(s): 11.4953
+04-Jun-21 18:00:50 - == train Loss <unroll: 1.0377 | vae : 0.4960 | kl : 0.0046>
+04-Jun-21 18:00:50 - == gmse <train: 0.0691 | val: 0.0648> 
+04-Jun-21 18:01:01 - Epoch 0048 | lr: 0.00080995 | Time(s): 11.4697
+04-Jun-21 18:01:01 - == train Loss <unroll: 1.0374 | vae : 0.4723 | kl : 0.0040>
+04-Jun-21 18:01:01 - == gmse <train: 0.0692 | val: 0.0658> 
+04-Jun-21 18:01:11 - Epoch 0049 | lr: 0.00076945 | Time(s): 11.4446
+04-Jun-21 18:01:11 - == train Loss <unroll: 1.0366 | vae : 0.4485 | kl : 0.0038>
+04-Jun-21 18:01:11 - == gmse <train: 0.0692 | val: 0.0656> 
+04-Jun-21 18:01:21 - Epoch 0050 | lr: 0.00073098 | Time(s): 11.4206
+04-Jun-21 18:01:21 - == train Loss <unroll: 1.0362 | vae : 0.4274 | kl : 0.0039>
+04-Jun-21 18:01:21 - == gmse <train: 0.0694 | val: 0.0651> 
+04-Jun-21 18:01:32 - Epoch 0051 | lr: 0.00069443 | Time(s): 11.4162
+04-Jun-21 18:01:32 - == train Loss <unroll: 1.0359 | vae : 0.4068 | kl : 0.0038>
+04-Jun-21 18:01:32 - == gmse <train: 0.0693 | val: 0.0648> 
+04-Jun-21 18:01:48 - Epoch 0052 | lr: 0.00065971 | Time(s): 11.4883
+04-Jun-21 18:01:48 - == train Loss <unroll: 1.0357 | vae : 0.3908 | kl : 0.0036>
+04-Jun-21 18:01:48 - == gmse <train: 0.0695 | val: 0.0642> 
+04-Jun-21 18:01:59 - Epoch 0053 | lr: 0.00062672 | Time(s): 11.4935
+04-Jun-21 18:01:59 - == train Loss <unroll: 1.0346 | vae : 0.3708 | kl : 0.0034>
+04-Jun-21 18:01:59 - == gmse <train: 0.0691 | val: 0.0644> 
+04-Jun-21 18:02:10 - Epoch 0054 | lr: 0.00059539 | Time(s): 11.4728
+04-Jun-21 18:02:10 - == train Loss <unroll: 1.0340 | vae : 0.3547 | kl : 0.0031>
+04-Jun-21 18:02:10 - == gmse <train: 0.0689 | val: 0.0647> 
+04-Jun-21 18:02:21 - Epoch 0055 | lr: 0.00056562 | Time(s): 11.4706
+04-Jun-21 18:02:21 - == train Loss <unroll: 1.0328 | vae : 0.3371 | kl : 0.0035>
+04-Jun-21 18:02:21 - == gmse <train: 0.0685 | val: 0.0636> 
+04-Jun-21 18:02:33 - Epoch 0056 | lr: 0.00053734 | Time(s): 11.4799
+04-Jun-21 18:02:33 - == train Loss <unroll: 1.0315 | vae : 0.3184 | kl : 0.0033>
+04-Jun-21 18:02:33 - == gmse <train: 0.0677 | val: 0.0638> 
+04-Jun-21 18:02:45 - Epoch 0057 | lr: 0.00051047 | Time(s): 11.4808
+04-Jun-21 18:02:45 - == train Loss <unroll: 1.0303 | vae : 0.3030 | kl : 0.0028>
+04-Jun-21 18:02:45 - == gmse <train: 0.0671 | val: 0.0621> 
+04-Jun-21 18:02:55 - Epoch 0058 | lr: 0.00048495 | Time(s): 11.4703
+04-Jun-21 18:02:55 - == train Loss <unroll: 1.0292 | vae : 0.2902 | kl : 0.0030>
+04-Jun-21 18:02:55 - == gmse <train: 0.0666 | val: 0.0620> 
+04-Jun-21 18:03:07 - Epoch 0059 | lr: 0.00046070 | Time(s): 11.4716
+04-Jun-21 18:03:07 - == train Loss <unroll: 1.0279 | vae : 0.2770 | kl : 0.0044>
+04-Jun-21 18:03:07 - == gmse <train: 0.0657 | val: 0.0612> 
+04-Jun-21 18:03:17 - Epoch 0060 | lr: 0.00043766 | Time(s): 11.4532
+04-Jun-21 18:03:17 - == train Loss <unroll: 1.0266 | vae : 0.2622 | kl : 0.0026>
+04-Jun-21 18:03:17 - == gmse <train: 0.0650 | val: 0.0587> 
+04-Jun-21 18:03:29 - Epoch 0061 | lr: 0.00041578 | Time(s): 11.4549
+04-Jun-21 18:03:29 - == train Loss <unroll: 1.0251 | vae : 0.2493 | kl : 0.0025>
+04-Jun-21 18:03:29 - == gmse <train: 0.0641 | val: 0.0592> 
+04-Jun-21 18:03:40 - Epoch 0062 | lr: 0.00039499 | Time(s): 11.4468
+04-Jun-21 18:03:40 - == train Loss <unroll: 1.0238 | vae : 0.2393 | kl : 0.0028>
+04-Jun-21 18:03:40 - == gmse <train: 0.0633 | val: 0.0587> 
+04-Jun-21 18:03:53 - Epoch 0063 | lr: 0.00037524 | Time(s): 11.4760
+04-Jun-21 18:03:53 - == train Loss <unroll: 1.0222 | vae : 0.2256 | kl : 0.0019>
+04-Jun-21 18:03:53 - == gmse <train: 0.0621 | val: 0.0571> 
+04-Jun-21 18:04:07 - Epoch 0064 | lr: 0.00035648 | Time(s): 11.5077
+04-Jun-21 18:04:07 - == train Loss <unroll: 1.0208 | vae : 0.2162 | kl : 0.0022>
+04-Jun-21 18:04:07 - == gmse <train: 0.0613 | val: 0.0566> 
+04-Jun-21 18:04:18 - Epoch 0065 | lr: 0.00033866 | Time(s): 11.4992
+04-Jun-21 18:04:18 - == train Loss <unroll: 1.0192 | vae : 0.2068 | kl : 0.0017>
+04-Jun-21 18:04:18 - == gmse <train: 0.0604 | val: 0.0562> 
+04-Jun-21 18:04:28 - Epoch 0066 | lr: 0.00032172 | Time(s): 11.4810
+04-Jun-21 18:04:28 - == train Loss <unroll: 1.0178 | vae : 0.1990 | kl : 0.0021>
+04-Jun-21 18:04:28 - == gmse <train: 0.0596 | val: 0.0550> 
+04-Jun-21 18:04:39 - Epoch 0067 | lr: 0.00030564 | Time(s): 11.4686
+04-Jun-21 18:04:39 - == train Loss <unroll: 1.0164 | vae : 0.1897 | kl : 0.0014>
+04-Jun-21 18:04:39 - == gmse <train: 0.0585 | val: 0.0545> 
+04-Jun-21 18:04:49 - Epoch 0068 | lr: 0.00029035 | Time(s): 11.4516
+04-Jun-21 18:04:49 - == train Loss <unroll: 1.0150 | vae : 0.1829 | kl : 0.0022>
+04-Jun-21 18:04:49 - == gmse <train: 0.0576 | val: 0.0534> 
+04-Jun-21 18:04:59 - Epoch 0069 | lr: 0.00027584 | Time(s): 11.4337
+04-Jun-21 18:04:59 - == train Loss <unroll: 1.0134 | vae : 0.1751 | kl : 0.0016>
+04-Jun-21 18:04:59 - == gmse <train: 0.0567 | val: 0.0525> 
+04-Jun-21 18:05:11 - Epoch 0070 | lr: 0.00026205 | Time(s): 11.4478
+04-Jun-21 18:05:11 - == train Loss <unroll: 1.0121 | vae : 0.1693 | kl : 0.0014>
+04-Jun-21 18:05:11 - == gmse <train: 0.0560 | val: 0.0516> 
+04-Jun-21 18:05:24 - Epoch 0071 | lr: 0.00024894 | Time(s): 11.4653
+04-Jun-21 18:05:24 - == train Loss <unroll: 1.0107 | vae : 0.1627 | kl : 0.0013>
+04-Jun-21 18:05:24 - == gmse <train: 0.0550 | val: 0.0513> 
+04-Jun-21 18:05:36 - Epoch 0072 | lr: 0.00023650 | Time(s): 11.4724
+04-Jun-21 18:05:36 - == train Loss <unroll: 1.0094 | vae : 0.1571 | kl : 0.0013>
+04-Jun-21 18:05:36 - == gmse <train: 0.0542 | val: 0.0491> 
+04-Jun-21 18:05:48 - Epoch 0073 | lr: 0.00022467 | Time(s): 11.4798
+04-Jun-21 18:05:48 - == train Loss <unroll: 1.0081 | vae : 0.1520 | kl : 0.0012>
+04-Jun-21 18:05:48 - == gmse <train: 0.0533 | val: 0.0489> 
+04-Jun-21 18:05:59 - Epoch 0074 | lr: 0.00021344 | Time(s): 11.4743
+04-Jun-21 18:05:59 - == train Loss <unroll: 1.0068 | vae : 0.1472 | kl : 0.0009>
+04-Jun-21 18:05:59 - == gmse <train: 0.0527 | val: 0.0492> 
+04-Jun-21 18:06:11 - Epoch 0075 | lr: 0.00020277 | Time(s): 11.4732
+04-Jun-21 18:06:11 - == train Loss <unroll: 1.0056 | vae : 0.1425 | kl : 0.0009>
+04-Jun-21 18:06:11 - == gmse <train: 0.0518 | val: 0.0481> 
+04-Jun-21 18:06:20 - Epoch 0076 | lr: 0.00019263 | Time(s): 11.4484
+04-Jun-21 18:06:20 - == train Loss <unroll: 1.0046 | vae : 0.1394 | kl : 0.0015>
+04-Jun-21 18:06:20 - == gmse <train: 0.0512 | val: 0.0476> 
+04-Jun-21 18:06:30 - Epoch 0077 | lr: 0.00018300 | Time(s): 11.4272
+04-Jun-21 18:06:30 - == train Loss <unroll: 1.0034 | vae : 0.1349 | kl : 0.0006>
+04-Jun-21 18:06:30 - == gmse <train: 0.0506 | val: 0.0474> 
+04-Jun-21 18:06:40 - Epoch 0078 | lr: 0.00017385 | Time(s): 11.4068
+04-Jun-21 18:06:40 - == train Loss <unroll: 1.0024 | vae : 0.1316 | kl : 0.0006>
+04-Jun-21 18:06:40 - == gmse <train: 0.0500 | val: 0.0465> 
+04-Jun-21 18:06:52 - Epoch 0079 | lr: 0.00016515 | Time(s): 11.4114
+04-Jun-21 18:06:52 - == train Loss <unroll: 1.0014 | vae : 0.1284 | kl : 0.0006>
+04-Jun-21 18:06:52 - == gmse <train: 0.0493 | val: 0.0459> 
+04-Jun-21 18:07:03 - Epoch 0080 | lr: 0.00015690 | Time(s): 11.4065
+04-Jun-21 18:07:03 - == train Loss <unroll: 1.0006 | vae : 0.1257 | kl : 0.0007>
+04-Jun-21 18:07:03 - == gmse <train: 0.0488 | val: 0.0457> 
+04-Jun-21 18:07:16 - Epoch 0081 | lr: 0.00014905 | Time(s): 11.4336
+04-Jun-21 18:07:16 - == train Loss <unroll: 0.9995 | vae : 0.1229 | kl : 0.0007>
+04-Jun-21 18:07:16 - == gmse <train: 0.0482 | val: 0.0453> 
+04-Jun-21 18:07:28 - Epoch 0082 | lr: 0.00014160 | Time(s): 11.4429
+04-Jun-21 18:07:28 - == train Loss <unroll: 0.9985 | vae : 0.1201 | kl : 0.0006>
+04-Jun-21 18:07:28 - == gmse <train: 0.0477 | val: 0.0445> 
+04-Jun-21 18:07:41 - Epoch 0083 | lr: 0.00013452 | Time(s): 11.4548
+04-Jun-21 18:07:41 - == train Loss <unroll: 0.9978 | vae : 0.1180 | kl : 0.0008>
+04-Jun-21 18:07:41 - == gmse <train: 0.0472 | val: 0.0438> 
+04-Jun-21 18:07:53 - Epoch 0084 | lr: 0.00012779 | Time(s): 11.4608
+04-Jun-21 18:07:53 - == train Loss <unroll: 0.9969 | vae : 0.1154 | kl : 0.0003>
+04-Jun-21 18:07:53 - == gmse <train: 0.0467 | val: 0.0436> 
+04-Jun-21 18:08:04 - Epoch 0085 | lr: 0.00012140 | Time(s): 11.4592
+04-Jun-21 18:08:04 - == train Loss <unroll: 0.9963 | vae : 0.1134 | kl : 0.0004>
+04-Jun-21 18:08:04 - == gmse <train: 0.0463 | val: 0.0432> 
+04-Jun-21 18:08:15 - Epoch 0086 | lr: 0.00011533 | Time(s): 11.4465
+04-Jun-21 18:08:15 - == train Loss <unroll: 0.9954 | vae : 0.1117 | kl : 0.0005>
+04-Jun-21 18:08:15 - == gmse <train: 0.0459 | val: 0.0433> 
+04-Jun-21 18:08:25 - Epoch 0087 | lr: 0.00010957 | Time(s): 11.4369
+04-Jun-21 18:08:25 - == train Loss <unroll: 0.9948 | vae : 0.1105 | kl : 0.0008>
+04-Jun-21 18:08:25 - == gmse <train: 0.0456 | val: 0.0429> 
+04-Jun-21 18:08:36 - Epoch 0088 | lr: 0.00010409 | Time(s): 11.4328
+04-Jun-21 18:08:36 - == train Loss <unroll: 0.9942 | vae : 0.1080 | kl : 0.0003>
+04-Jun-21 18:08:36 - == gmse <train: 0.0452 | val: 0.0426> 
+04-Jun-21 18:08:47 - Epoch 0089 | lr: 0.00009888 | Time(s): 11.4287
+04-Jun-21 18:08:47 - == train Loss <unroll: 0.9935 | vae : 0.1070 | kl : 0.0006>
+04-Jun-21 18:08:47 - == gmse <train: 0.0449 | val: 0.0428> 
+04-Jun-21 18:08:59 - Epoch 0090 | lr: 0.00009394 | Time(s): 11.4274
+04-Jun-21 18:08:59 - == train Loss <unroll: 0.9929 | vae : 0.1052 | kl : 0.0003>
+04-Jun-21 18:08:59 - == gmse <train: 0.0446 | val: 0.0421> 
+04-Jun-21 18:09:10 - Epoch 0091 | lr: 0.00008924 | Time(s): 11.4231
+04-Jun-21 18:09:10 - == train Loss <unroll: 0.9923 | vae : 0.1041 | kl : 0.0004>
+04-Jun-21 18:09:10 - == gmse <train: 0.0442 | val: 0.0418> 
+04-Jun-21 18:09:21 - Epoch 0092 | lr: 0.00008478 | Time(s): 11.4218
+04-Jun-21 18:09:21 - == train Loss <unroll: 0.9918 | vae : 0.1026 | kl : 0.0003>
+04-Jun-21 18:09:21 - == gmse <train: 0.0439 | val: 0.0419> 
+04-Jun-21 18:09:33 - Epoch 0093 | lr: 0.00008054 | Time(s): 11.4267
+04-Jun-21 18:09:33 - == train Loss <unroll: 0.9914 | vae : 0.1014 | kl : 0.0002>
+04-Jun-21 18:09:33 - == gmse <train: 0.0437 | val: 0.0412> 
+04-Jun-21 18:09:44 - Epoch 0094 | lr: 0.00007651 | Time(s): 11.4195
+04-Jun-21 18:09:44 - == train Loss <unroll: 0.9909 | vae : 0.1004 | kl : 0.0002>
+04-Jun-21 18:09:44 - == gmse <train: 0.0434 | val: 0.0412> 
+04-Jun-21 18:09:55 - Epoch 0095 | lr: 0.00007269 | Time(s): 11.4148
+04-Jun-21 18:09:55 - == train Loss <unroll: 0.9903 | vae : 0.0993 | kl : 0.0003>
+04-Jun-21 18:09:55 - == gmse <train: 0.0431 | val: 0.0410> 
+04-Jun-21 18:10:05 - Epoch 0096 | lr: 0.00006905 | Time(s): 11.4083
+04-Jun-21 18:10:05 - == train Loss <unroll: 0.9898 | vae : 0.0983 | kl : 0.0002>
+04-Jun-21 18:10:05 - == gmse <train: 0.0429 | val: 0.0407> 
+04-Jun-21 18:10:17 - Epoch 0097 | lr: 0.00006560 | Time(s): 11.4127
+04-Jun-21 18:10:17 - == train Loss <unroll: 0.9896 | vae : 0.0975 | kl : 0.0004>
+04-Jun-21 18:10:17 - == gmse <train: 0.0427 | val: 0.0407> 
+04-Jun-21 18:10:28 - Epoch 0098 | lr: 0.00006232 | Time(s): 11.4104
+04-Jun-21 18:10:28 - == train Loss <unroll: 0.9891 | vae : 0.0964 | kl : 0.0002>
+04-Jun-21 18:10:28 - == gmse <train: 0.0425 | val: 0.0405> 
+04-Jun-21 18:10:40 - Epoch 0099 | lr: 0.00005921 | Time(s): 11.4080
+04-Jun-21 18:10:40 - == train Loss <unroll: 0.9886 | vae : 0.0955 | kl : 0.0001>
+04-Jun-21 18:10:40 - == gmse <train: 0.0422 | val: 0.0402> 
+04-Jun-21 18:10:50 - Epoch 0100 | lr: 0.00005625 | Time(s): 11.4030
+04-Jun-21 18:10:50 - == train Loss <unroll: 0.9883 | vae : 0.0948 | kl : 0.0002>
+04-Jun-21 18:10:50 - == gmse <train: 0.0420 | val: 0.0402> 
+04-Jun-21 18:10:50 - model saved at: saved_model/L2G_BA20_unroll20.pt
+04-Jun-21 18:10:50 - (0.03908751, 0.0029207446652821465, 0.03616676693378173, 0.04200825626434602)
+04-Jun-21 18:10:51 - layerwise test loss :[0.713434, 0.7060267, 0.71940756, 0.6437064, 0.4701369, 0.1809894, 0.1363848, 0.14113985, 0.15822211, 0.13422707, 0.060180027, 0.07885441, 0.059109915, 0.06822883, 0.05414648, 0.042237833, 0.042476714, 0.042398572, 0.044231124, 0.041909736]
+04-Jun-21 18:10:51 - results saved at: saved_results/L2G_BA20_unroll20.pt

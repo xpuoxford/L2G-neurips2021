@@ -1,0 +1,205 @@
+03-Jun-21 18:13:35 - unrolling()
+03-Jun-21 18:13:40 - Epoch 0001 | Time(s): 5.5396
+03-Jun-21 18:13:40 - == unroll loss: 7.8237 | train gmse : 0.9926 | val gmse : 0.9872>
+03-Jun-21 18:13:45 - Epoch 0002 | Time(s): 5.3025
+03-Jun-21 18:13:45 - == unroll loss: 7.6757 | train gmse : 0.9741 | val gmse : 0.9513>
+03-Jun-21 18:13:50 - Epoch 0003 | Time(s): 5.2364
+03-Jun-21 18:13:50 - == unroll loss: 7.2914 | train gmse : 0.9063 | val gmse : 0.8620>
+03-Jun-21 18:13:56 - Epoch 0004 | Time(s): 5.4192
+03-Jun-21 18:13:56 - == unroll loss: 6.7995 | train gmse : 0.8330 | val gmse : 0.8078>
+03-Jun-21 18:14:02 - Epoch 0005 | Time(s): 5.4469
+03-Jun-21 18:14:02 - == unroll loss: 6.4627 | train gmse : 0.7888 | val gmse : 0.7674>
+03-Jun-21 18:14:08 - Epoch 0006 | Time(s): 5.4926
+03-Jun-21 18:14:08 - == unroll loss: 6.1929 | train gmse : 0.7457 | val gmse : 0.7211>
+03-Jun-21 18:14:13 - Epoch 0007 | Time(s): 5.5036
+03-Jun-21 18:14:13 - == unroll loss: 5.9288 | train gmse : 0.6964 | val gmse : 0.6706>
+03-Jun-21 18:14:19 - Epoch 0008 | Time(s): 5.5209
+03-Jun-21 18:14:19 - == unroll loss: 5.6531 | train gmse : 0.6421 | val gmse : 0.6141>
+03-Jun-21 18:14:24 - Epoch 0009 | Time(s): 5.5166
+03-Jun-21 18:14:24 - == unroll loss: 5.3657 | train gmse : 0.5845 | val gmse : 0.5564>
+03-Jun-21 18:14:30 - Epoch 0010 | Time(s): 5.5197
+03-Jun-21 18:14:30 - == unroll loss: 5.0702 | train gmse : 0.5257 | val gmse : 0.4984>
+03-Jun-21 18:14:35 - Epoch 0011 | Time(s): 5.5138
+03-Jun-21 18:14:35 - == unroll loss: 4.7767 | train gmse : 0.4696 | val gmse : 0.4457>
+03-Jun-21 18:14:41 - Epoch 0012 | Time(s): 5.5130
+03-Jun-21 18:14:41 - == unroll loss: 4.5009 | train gmse : 0.4207 | val gmse : 0.4009>
+03-Jun-21 18:14:46 - Epoch 0013 | Time(s): 5.5158
+03-Jun-21 18:14:46 - == unroll loss: 4.2529 | train gmse : 0.3800 | val gmse : 0.3626>
+03-Jun-21 18:14:54 - Epoch 0014 | Time(s): 5.6389
+03-Jun-21 18:14:54 - == unroll loss: 4.0290 | train gmse : 0.3464 | val gmse : 0.3327>
+03-Jun-21 18:15:00 - Epoch 0015 | Time(s): 5.6932
+03-Jun-21 18:15:00 - == unroll loss: 3.8268 | train gmse : 0.3200 | val gmse : 0.3101>
+03-Jun-21 18:15:06 - Epoch 0016 | Time(s): 5.7068
+03-Jun-21 18:15:06 - == unroll loss: 3.6496 | train gmse : 0.3004 | val gmse : 0.2934>
+03-Jun-21 18:15:12 - Epoch 0017 | Time(s): 5.7003
+03-Jun-21 18:15:12 - == unroll loss: 3.4985 | train gmse : 0.2858 | val gmse : 0.2804>
+03-Jun-21 18:15:17 - Epoch 0018 | Time(s): 5.6754
+03-Jun-21 18:15:17 - == unroll loss: 3.3723 | train gmse : 0.2750 | val gmse : 0.2711>
+03-Jun-21 18:15:26 - Epoch 0019 | Time(s): 5.8679
+03-Jun-21 18:15:26 - == unroll loss: 3.2674 | train gmse : 0.2663 | val gmse : 0.2630>
+03-Jun-21 18:15:36 - Epoch 0020 | Time(s): 6.0839
+03-Jun-21 18:15:36 - == unroll loss: 3.1795 | train gmse : 0.2589 | val gmse : 0.2559>
+03-Jun-21 18:15:43 - Epoch 0021 | Time(s): 6.1216
+03-Jun-21 18:15:43 - == unroll loss: 3.1062 | train gmse : 0.2522 | val gmse : 0.2495>
+03-Jun-21 18:15:50 - Epoch 0022 | Time(s): 6.1416
+03-Jun-21 18:15:50 - == unroll loss: 3.0507 | train gmse : 0.2460 | val gmse : 0.2430>
+03-Jun-21 18:15:58 - Epoch 0023 | Time(s): 6.2306
+03-Jun-21 18:15:58 - == unroll loss: 3.0094 | train gmse : 0.2403 | val gmse : 0.2369>
+03-Jun-21 18:16:08 - Epoch 0024 | Time(s): 6.3827
+03-Jun-21 18:16:08 - == unroll loss: 2.9740 | train gmse : 0.2348 | val gmse : 0.2322>
+03-Jun-21 18:16:15 - Epoch 0025 | Time(s): 6.4058
+03-Jun-21 18:16:15 - == unroll loss: 2.9406 | train gmse : 0.2296 | val gmse : 0.2266>
+03-Jun-21 18:16:22 - Epoch 0026 | Time(s): 6.4241
+03-Jun-21 18:16:22 - == unroll loss: 2.9083 | train gmse : 0.2246 | val gmse : 0.2223>
+03-Jun-21 18:16:28 - Epoch 0027 | Time(s): 6.4153
+03-Jun-21 18:16:28 - == unroll loss: 2.8805 | train gmse : 0.2199 | val gmse : 0.2181>
+03-Jun-21 18:16:33 - Epoch 0028 | Time(s): 6.3688
+03-Jun-21 18:16:33 - == unroll loss: 2.8511 | train gmse : 0.2154 | val gmse : 0.2131>
+03-Jun-21 18:16:38 - Epoch 0029 | Time(s): 6.3230
+03-Jun-21 18:16:38 - == unroll loss: 2.8250 | train gmse : 0.2111 | val gmse : 0.2093>
+03-Jun-21 18:16:44 - Epoch 0030 | Time(s): 6.3138
+03-Jun-21 18:16:44 - == unroll loss: 2.7998 | train gmse : 0.2071 | val gmse : 0.2050>
+03-Jun-21 18:16:51 - Epoch 0031 | Time(s): 6.3262
+03-Jun-21 18:16:51 - == unroll loss: 2.7748 | train gmse : 0.2032 | val gmse : 0.2018>
+03-Jun-21 18:16:57 - Epoch 0032 | Time(s): 6.3313
+03-Jun-21 18:16:57 - == unroll loss: 2.7504 | train gmse : 0.1996 | val gmse : 0.1979>
+03-Jun-21 18:17:04 - Epoch 0033 | Time(s): 6.3352
+03-Jun-21 18:17:04 - == unroll loss: 2.7279 | train gmse : 0.1963 | val gmse : 0.1949>
+03-Jun-21 18:17:10 - Epoch 0034 | Time(s): 6.3237
+03-Jun-21 18:17:10 - == unroll loss: 2.7061 | train gmse : 0.1931 | val gmse : 0.1909>
+03-Jun-21 18:17:15 - Epoch 0035 | Time(s): 6.2950
+03-Jun-21 18:17:15 - == unroll loss: 2.6848 | train gmse : 0.1902 | val gmse : 0.1887>
+03-Jun-21 18:17:20 - Epoch 0036 | Time(s): 6.2650
+03-Jun-21 18:17:20 - == unroll loss: 2.6631 | train gmse : 0.1874 | val gmse : 0.1856>
+03-Jun-21 18:17:25 - Epoch 0037 | Time(s): 6.2317
+03-Jun-21 18:17:25 - == unroll loss: 2.6445 | train gmse : 0.1848 | val gmse : 0.1835>
+03-Jun-21 18:17:30 - Epoch 0038 | Time(s): 6.2025
+03-Jun-21 18:17:30 - == unroll loss: 2.6251 | train gmse : 0.1824 | val gmse : 0.1813>
+03-Jun-21 18:17:35 - Epoch 0039 | Time(s): 6.1709
+03-Jun-21 18:17:35 - == unroll loss: 2.6081 | train gmse : 0.1802 | val gmse : 0.1789>
+03-Jun-21 18:17:40 - Epoch 0040 | Time(s): 6.1428
+03-Jun-21 18:17:40 - == unroll loss: 2.5890 | train gmse : 0.1780 | val gmse : 0.1769>
+03-Jun-21 18:17:46 - Epoch 0041 | Time(s): 6.1169
+03-Jun-21 18:17:46 - == unroll loss: 2.5712 | train gmse : 0.1759 | val gmse : 0.1747>
+03-Jun-21 18:17:51 - Epoch 0042 | Time(s): 6.0947
+03-Jun-21 18:17:51 - == unroll loss: 2.5532 | train gmse : 0.1738 | val gmse : 0.1724>
+03-Jun-21 18:17:57 - Epoch 0043 | Time(s): 6.1090
+03-Jun-21 18:17:57 - == unroll loss: 2.5361 | train gmse : 0.1719 | val gmse : 0.1710>
+03-Jun-21 18:18:03 - Epoch 0044 | Time(s): 6.1037
+03-Jun-21 18:18:03 - == unroll loss: 2.5195 | train gmse : 0.1699 | val gmse : 0.1684>
+03-Jun-21 18:18:12 - Epoch 0045 | Time(s): 6.1626
+03-Jun-21 18:18:12 - == unroll loss: 2.5041 | train gmse : 0.1682 | val gmse : 0.1669>
+03-Jun-21 18:18:18 - Epoch 0046 | Time(s): 6.1651
+03-Jun-21 18:18:18 - == unroll loss: 2.4884 | train gmse : 0.1664 | val gmse : 0.1653>
+03-Jun-21 18:18:25 - Epoch 0047 | Time(s): 6.1665
+03-Jun-21 18:18:25 - == unroll loss: 2.4702 | train gmse : 0.1646 | val gmse : 0.1636>
+03-Jun-21 18:18:31 - Epoch 0048 | Time(s): 6.1652
+03-Jun-21 18:18:31 - == unroll loss: 2.4528 | train gmse : 0.1626 | val gmse : 0.1617>
+03-Jun-21 18:18:37 - Epoch 0049 | Time(s): 6.1751
+03-Jun-21 18:18:37 - == unroll loss: 2.4329 | train gmse : 0.1606 | val gmse : 0.1597>
+03-Jun-21 18:18:43 - Epoch 0050 | Time(s): 6.1640
+03-Jun-21 18:18:43 - == unroll loss: 2.4086 | train gmse : 0.1578 | val gmse : 0.1561>
+03-Jun-21 18:18:49 - Epoch 0051 | Time(s): 6.1587
+03-Jun-21 18:18:49 - == unroll loss: 2.3810 | train gmse : 0.1539 | val gmse : 0.1515>
+03-Jun-21 18:18:55 - Epoch 0052 | Time(s): 6.1497
+03-Jun-21 18:18:55 - == unroll loss: 2.3463 | train gmse : 0.1487 | val gmse : 0.1457>
+03-Jun-21 18:19:01 - Epoch 0053 | Time(s): 6.1613
+03-Jun-21 18:19:01 - == unroll loss: 2.3104 | train gmse : 0.1430 | val gmse : 0.1407>
+03-Jun-21 18:19:07 - Epoch 0054 | Time(s): 6.1519
+03-Jun-21 18:19:07 - == unroll loss: 2.2776 | train gmse : 0.1376 | val gmse : 0.1347>
+03-Jun-21 18:19:12 - Epoch 0055 | Time(s): 6.1391
+03-Jun-21 18:19:12 - == unroll loss: 2.2394 | train gmse : 0.1316 | val gmse : 0.1288>
+03-Jun-21 18:19:18 - Epoch 0056 | Time(s): 6.1253
+03-Jun-21 18:19:18 - == unroll loss: 2.2044 | train gmse : 0.1253 | val gmse : 0.1221>
+03-Jun-21 18:19:24 - Epoch 0057 | Time(s): 6.1232
+03-Jun-21 18:19:24 - == unroll loss: 2.1841 | train gmse : 0.1215 | val gmse : 0.1195>
+03-Jun-21 18:19:29 - Epoch 0058 | Time(s): 6.1082
+03-Jun-21 18:19:29 - == unroll loss: 2.1758 | train gmse : 0.1200 | val gmse : 0.1188>
+03-Jun-21 18:19:34 - Epoch 0059 | Time(s): 6.0826
+03-Jun-21 18:19:34 - == unroll loss: 2.1654 | train gmse : 0.1194 | val gmse : 0.1176>
+03-Jun-21 18:19:38 - Epoch 0060 | Time(s): 6.0558
+03-Jun-21 18:19:38 - == unroll loss: 2.1543 | train gmse : 0.1185 | val gmse : 0.1206>
+03-Jun-21 18:19:43 - Epoch 0061 | Time(s): 6.0297
+03-Jun-21 18:19:43 - == unroll loss: 2.1505 | train gmse : 0.1182 | val gmse : 0.1177>
+03-Jun-21 18:19:47 - Epoch 0062 | Time(s): 6.0050
+03-Jun-21 18:19:47 - == unroll loss: 2.1385 | train gmse : 0.1173 | val gmse : 0.1168>
+03-Jun-21 18:19:52 - Epoch 0063 | Time(s): 5.9843
+03-Jun-21 18:19:52 - == unroll loss: 2.1334 | train gmse : 0.1170 | val gmse : 0.1157>
+03-Jun-21 18:19:56 - Epoch 0064 | Time(s): 5.9637
+03-Jun-21 18:19:56 - == unroll loss: 2.1255 | train gmse : 0.1164 | val gmse : 0.1162>
+03-Jun-21 18:20:01 - Epoch 0065 | Time(s): 5.9428
+03-Jun-21 18:20:01 - == unroll loss: 2.1206 | train gmse : 0.1160 | val gmse : 0.1148>
+03-Jun-21 18:20:06 - Epoch 0066 | Time(s): 5.9210
+03-Jun-21 18:20:06 - == unroll loss: 2.1132 | train gmse : 0.1155 | val gmse : 0.1144>
+03-Jun-21 18:20:10 - Epoch 0067 | Time(s): 5.8974
+03-Jun-21 18:20:10 - == unroll loss: 2.1072 | train gmse : 0.1149 | val gmse : 0.1140>
+03-Jun-21 18:20:14 - Epoch 0068 | Time(s): 5.8746
+03-Jun-21 18:20:14 - == unroll loss: 2.1025 | train gmse : 0.1145 | val gmse : 0.1133>
+03-Jun-21 18:20:19 - Epoch 0069 | Time(s): 5.8537
+03-Jun-21 18:20:19 - == unroll loss: 2.0979 | train gmse : 0.1141 | val gmse : 0.1129>
+03-Jun-21 18:20:23 - Epoch 0070 | Time(s): 5.8358
+03-Jun-21 18:20:23 - == unroll loss: 2.0927 | train gmse : 0.1135 | val gmse : 0.1128>
+03-Jun-21 18:20:28 - Epoch 0071 | Time(s): 5.8154
+03-Jun-21 18:20:28 - == unroll loss: 2.0877 | train gmse : 0.1131 | val gmse : 0.1123>
+03-Jun-21 18:20:32 - Epoch 0072 | Time(s): 5.7942
+03-Jun-21 18:20:32 - == unroll loss: 2.0846 | train gmse : 0.1127 | val gmse : 0.1117>
+03-Jun-21 18:20:36 - Epoch 0073 | Time(s): 5.7740
+03-Jun-21 18:20:36 - == unroll loss: 2.0790 | train gmse : 0.1122 | val gmse : 0.1126>
+03-Jun-21 18:20:41 - Epoch 0074 | Time(s): 5.7549
+03-Jun-21 18:20:41 - == unroll loss: 2.0753 | train gmse : 0.1118 | val gmse : 0.1109>
+03-Jun-21 18:20:45 - Epoch 0075 | Time(s): 5.7359
+03-Jun-21 18:20:45 - == unroll loss: 2.0706 | train gmse : 0.1113 | val gmse : 0.1109>
+03-Jun-21 18:20:49 - Epoch 0076 | Time(s): 5.7181
+03-Jun-21 18:20:49 - == unroll loss: 2.0684 | train gmse : 0.1111 | val gmse : 0.1101>
+03-Jun-21 18:20:54 - Epoch 0077 | Time(s): 5.7011
+03-Jun-21 18:20:54 - == unroll loss: 2.0640 | train gmse : 0.1107 | val gmse : 0.1101>
+03-Jun-21 18:20:58 - Epoch 0078 | Time(s): 5.6854
+03-Jun-21 18:20:58 - == unroll loss: 2.0590 | train gmse : 0.1101 | val gmse : 0.1091>
+03-Jun-21 18:21:03 - Epoch 0079 | Time(s): 5.6679
+03-Jun-21 18:21:03 - == unroll loss: 2.0539 | train gmse : 0.1096 | val gmse : 0.1097>
+03-Jun-21 18:21:07 - Epoch 0080 | Time(s): 5.6515
+03-Jun-21 18:21:07 - == unroll loss: 2.0510 | train gmse : 0.1093 | val gmse : 0.1084>
+03-Jun-21 18:21:11 - Epoch 0081 | Time(s): 5.6352
+03-Jun-21 18:21:11 - == unroll loss: 2.0475 | train gmse : 0.1089 | val gmse : 0.1086>
+03-Jun-21 18:21:16 - Epoch 0082 | Time(s): 5.6197
+03-Jun-21 18:21:16 - == unroll loss: 2.0428 | train gmse : 0.1085 | val gmse : 0.1081>
+03-Jun-21 18:21:20 - Epoch 0083 | Time(s): 5.6055
+03-Jun-21 18:21:20 - == unroll loss: 2.0397 | train gmse : 0.1082 | val gmse : 0.1079>
+03-Jun-21 18:21:24 - Epoch 0084 | Time(s): 5.5915
+03-Jun-21 18:21:24 - == unroll loss: 2.0353 | train gmse : 0.1078 | val gmse : 0.1071>
+03-Jun-21 18:21:29 - Epoch 0085 | Time(s): 5.5779
+03-Jun-21 18:21:29 - == unroll loss: 2.0325 | train gmse : 0.1075 | val gmse : 0.1066>
+03-Jun-21 18:21:33 - Epoch 0086 | Time(s): 5.5633
+03-Jun-21 18:21:33 - == unroll loss: 2.0280 | train gmse : 0.1071 | val gmse : 0.1065>
+03-Jun-21 18:21:38 - Epoch 0087 | Time(s): 5.5493
+03-Jun-21 18:21:38 - == unroll loss: 2.0235 | train gmse : 0.1068 | val gmse : 0.1058>
+03-Jun-21 18:21:42 - Epoch 0088 | Time(s): 5.5353
+03-Jun-21 18:21:42 - == unroll loss: 2.0210 | train gmse : 0.1065 | val gmse : 0.1057>
+03-Jun-21 18:21:46 - Epoch 0089 | Time(s): 5.5223
+03-Jun-21 18:21:46 - == unroll loss: 2.0168 | train gmse : 0.1062 | val gmse : 0.1055>
+03-Jun-21 18:21:51 - Epoch 0090 | Time(s): 5.5100
+03-Jun-21 18:21:51 - == unroll loss: 2.0126 | train gmse : 0.1059 | val gmse : 0.1056>
+03-Jun-21 18:21:55 - Epoch 0091 | Time(s): 5.4981
+03-Jun-21 18:21:55 - == unroll loss: 2.0092 | train gmse : 0.1056 | val gmse : 0.1045>
+03-Jun-21 18:22:00 - Epoch 0092 | Time(s): 5.4865
+03-Jun-21 18:22:00 - == unroll loss: 2.0043 | train gmse : 0.1052 | val gmse : 0.1045>
+03-Jun-21 18:22:04 - Epoch 0093 | Time(s): 5.4737
+03-Jun-21 18:22:04 - == unroll loss: 2.0009 | train gmse : 0.1050 | val gmse : 0.1046>
+03-Jun-21 18:22:08 - Epoch 0094 | Time(s): 5.4619
+03-Jun-21 18:22:08 - == unroll loss: 1.9964 | train gmse : 0.1047 | val gmse : 0.1041>
+03-Jun-21 18:22:13 - Epoch 0095 | Time(s): 5.4498
+03-Jun-21 18:22:13 - == unroll loss: 1.9927 | train gmse : 0.1044 | val gmse : 0.1035>
+03-Jun-21 18:22:17 - Epoch 0096 | Time(s): 5.4382
+03-Jun-21 18:22:17 - == unroll loss: 1.9888 | train gmse : 0.1041 | val gmse : 0.1041>
+03-Jun-21 18:22:21 - Epoch 0097 | Time(s): 5.4278
+03-Jun-21 18:22:21 - == unroll loss: 1.9846 | train gmse : 0.1039 | val gmse : 0.1029>
+03-Jun-21 18:22:26 - Epoch 0098 | Time(s): 5.4176
+03-Jun-21 18:22:26 - == unroll loss: 1.9801 | train gmse : 0.1035 | val gmse : 0.1026>
+03-Jun-21 18:22:30 - Epoch 0099 | Time(s): 5.4074
+03-Jun-21 18:22:30 - == unroll loss: 1.9764 | train gmse : 0.1033 | val gmse : 0.1027>
+03-Jun-21 18:22:34 - Epoch 0100 | Time(s): 5.3969
+03-Jun-21 18:22:34 - == unroll loss: 1.9727 | train gmse : 0.1031 | val gmse : 0.1024>
+03-Jun-21 18:22:34 - model saved at: saved_model/Unrolling_BA20_unroll20.pt
+03-Jun-21 18:22:34 - (0.10592462, 0.004957137112947014, 0.10096748411145637, 0.1108817583373504)
+03-Jun-21 18:22:35 - layerwise test loss :[3.0246782, 0.7517172, 0.6763325, 0.6482681, 0.6746774, 0.5446273, 0.44434536, 0.40497506, 0.21311776, 0.22617692, 0.16282241, 0.19755363, 0.1482133, 0.14719312, 0.1069251, 0.10748645, 0.10555177, 0.10542552, 0.10542565, 0.1054266]
+03-Jun-21 18:22:35 - results saved at: saved_results/Unrolling_BA20_unroll20.pt
